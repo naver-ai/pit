@@ -1,6 +1,6 @@
 ## Rethinking Spatial Dimensions of Vision Transformers
 
-**Byeongho Heo, Sangdoo Yun, Dongyoon Han, Sanghyuk Chun, Junsuk Choe, Seong Joon Oh** | Paper
+**Byeongho Heo, Sangdoo Yun, Dongyoon Han, Sanghyuk Chun, Junsuk Choe, Seong Joon Oh** | [Paper](https://arxiv.org/abs/2103.16302)
 
 NAVER AI LAB
 
@@ -117,7 +117,7 @@ limitations under the License.
 @article{heo2021pit,
     title={Rethinking Spatial Dimensions of Vision Transformers},
     author={Byeongho Heo and Sangdoo Yun and Dongyoon Han and Sanghyuk Chun and Junsuk Choe and Seong Joon Oh},
+    journal={arXiv: 2103.16302},
     year={2021},
-    journal={arXiv preprint},
 }
 ```
