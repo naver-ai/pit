@@ -55,9 +55,9 @@ Install other dependencies using the following command.
 pip install -r requirements.txt
 ```
 
-If timm>=0.4.7 is not available in pypi, install using:
+If timm>=0.4.7 is not available in pypi, install it using:
 ```
-python -m pip install git+https://github.com/rwightman/pytorch-image-models.git
+pip install git+https://github.com/rwightman/pytorch-image-models.git
 ```
 
 ## How to use models
