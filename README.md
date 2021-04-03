@@ -46,13 +46,18 @@ Our implementations are tested on following libraries with Python 3.6.9 and CUDA
 ```
 torch: 1.7.1
 torchvision: 0.8.2
-timm: 0.3.4
+timm: 0.4.7
 einops: 0.3.0
 ```
 
 Install other dependencies using the following command.
 ```bash
 pip install -r requirements.txt
+```
+
+If timm>=0.4.7 is not available in pypi, install using:
+```
+python -m pip install git+https://github.com/rwightman/pytorch-image-models.git
 ```
 
 ## How to use models
@@ -75,8 +80,7 @@ import torch
 import timm
 import pit
 
-model = timm.create_model('pit_s', pretrained=False)
-model.load_state_dict(torch.load('./weights/pit_s_809.pth'))
+model = timm.create_model('pit_s_224', pretrained=True)
 print(model(torch.randn(1, 3, 224, 224)))
 ```
 
