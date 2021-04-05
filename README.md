@@ -6,6 +6,11 @@ NAVER AI LAB
 
 <img src="teaser.png" width="100%" title="" alt="teaser"></img>
 
+### News
+
+- **Mar 30, 2021**: Code & paper released
+- **Apr 2, 2021**: PiT models with pretrained weights are added to [timm repo](https://github.com/rwightman/pytorch-image-models/blob/master/timm/models/pit.py). You can directly use with `timm>=0.4.7`.
+
 ### Abstract
 Vision Transformer (ViT) extends the application range of transformers from language processing to computer vision tasks as being an alternative architecture against the existing convolutional neural networks (CNN). Since the transformer-based architecture has been innovative for computer vision modeling, the design convention towards an effective architecture has been less studied yet. From the successful design principles of CNN, we investigate the role of the spatial dimension conversion and its effectiveness on the transformer-based architecture. We particularly attend the dimension reduction principle of CNNs; as the depth increases, a conventional CNN increases channel dimension and decreases spatial dimensions. We empirically show that such a spatial dimension reduction is beneficial to a transformer architecture as well, and propose a novel Pooling-based Vision Transformer (PiT) upon the original ViT model. We show that PiT achieves the improved model capability and generalization performance against ViT. Throughout the extensive experiments, we further show PiT outperforms the baseline on several tasks such as image classification, object detection and robustness evaluation.
 
@@ -54,6 +59,7 @@ Install other dependencies using the following command.
 ```bash
 pip install -r requirements.txt
 ```
+
 
 ## How to use models
 
