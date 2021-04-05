@@ -31,6 +31,23 @@ We compared performance of PiT with DeiT models in various training settings. Th
 | DeiT-B |  17.6 G | 86.6 M | 303 | 69.3   | 75.3 | 81.8  | 83.4 |
 | PiT-B |   12.5 G | 73.8 M | 348 | 76.1  | 79.9 | 82.0 | 84.0 |
 
+
+## Use PiT models with timm repo
+
+Install `timm>=0.4.7` using:
+```
+pip install git+https://github.com/rwightman/pytorch-image-models.git
+```
+
+Create PiT models
+```Python
+import torch
+import timm
+
+model = timm.create_model('pit_s_224', pretrained=True)
+print(model(torch.randn(1, 3, 224, 224)))
+```
+
 ## Pretrained weights
 
 | Model name   |  FLOPs  | accuracy  | weights |
@@ -59,7 +76,6 @@ Install other dependencies using the following command.
 ```bash
 pip install -r requirements.txt
 ```
-
 
 ## How to use models
 
