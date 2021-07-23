@@ -139,10 +139,10 @@ limitations under the License.
 ## Citation
 
 ```
-@article{heo2021pit,
+@inproceedings{heo2021pit,
     title={Rethinking Spatial Dimensions of Vision Transformers},
     author={Byeongho Heo and Sangdoo Yun and Dongyoon Han and Sanghyuk Chun and Junsuk Choe and Seong Joon Oh},
-    journal={arXiv: 2103.16302},
+    booktitle = {International Conference on Computer Vision (ICCV)},
     year={2021},
 }
 ```
